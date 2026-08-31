@@ -1,4 +1,5 @@
 import { NavLink } from 'react-router-dom';
+import NavIcon from './NavIcon.tsx';
 import { routes } from '../config/RoutesConfig.tsx';
 import './style/navbar.css';
 
@@ -12,7 +13,11 @@ export default function NavBar() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          <route.label />
+          {({ isActive }) => (
+            <>
+              <NavIcon icon={route.label} active={isActive} />
+            </>
+          )}
         </NavLink>
       ))}
     </nav>

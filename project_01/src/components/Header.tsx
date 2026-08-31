@@ -18,22 +18,23 @@ export default function Header() {
       <NavBar />
 
       <aside className="profile-wrapper">
-        <section className="logo-wrapper">
-          <Grip />
+        <section className="menu-wrapper">
+          <Grip size={28} />
 
           <div className="icon-wrapper">
-            <MessageCircleMore />
+            <MessageCircleMore size={28} />
             <span className="badge">2</span>
           </div>
 
           <div className="icon-wrapper">
-            <Bell />
+            <Bell size={28} />
             <span className="badge">15</span>
           </div>
         </section>
 
         <div className="user-profile-wrapper">
           <UserRound />
+          <span className="red-dot"></span>
         </div>
       </aside>
     </header>
