@@ -1,0 +1,52 @@
+:root {
+  --font-poppins: 'Poppins';
+
+  --text-primary: #000;
+  --text-secondary: #65686c;
+
+  --bg-primary: #f5f5f5;
+  --bg-secondary: #fff;
+  --bg-tertiary: #f0f2f5;
+
+  --primary-color: hsl(214, 89%, 52%);
+  --primary-pressed: hsl(214, 89%, 40%);
+  --primary-hover: hsl(214, 89%, 45%);
+  --primary-disabled: hsl(214, 89%, 75%);
+
+  --text-sm: 0.8rem;
+  --text-md: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2rem;
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 800;
+
+  --shadow-light: 1px 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-medium: 2px 2px 4px rgba(0, 0, 0, 0.05);
+  --shadow-strong: 4px 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-poppins);
+  font-size: var(--text-md);
+  font-weight: var(--font-medium);
+}
