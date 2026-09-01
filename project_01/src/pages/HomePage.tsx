@@ -1,5 +1,7 @@
+import PostCardLayout from '../components/PostCardLayout';
+
 const Page = () => {
-  return <h1>Home Page</h1>;
+  return <PostCardLayout />;
 };
 
 export default Page;
